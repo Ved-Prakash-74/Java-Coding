@@ -1,0 +1,23 @@
+Write a Java program that reads a single line of input containing alphanumeric characters. The program should calculate the sum of all numeric digits present in the input string. If the sum is less than 15, print the sum. If the sum is 15 or more, print "No Digits".
+
+Example:
+
+Input 1:
+
+abc123
+
+Output 1:
+
+6
+
+Explanation: The digits in the input are 1, 2, and 3. Their sum is 6, which is less than 15, so the program prints 6.
+
+Input 2:
+
+hello987654
+
+Output 2:
+
+No Digits
+
+Explanation: The digits in the input are 9, 8, 7, 6, 5, and 4. Their sum is 39, which is greater than 15, so the program prints No Digits.
