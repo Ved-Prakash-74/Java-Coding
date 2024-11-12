@@ -13,6 +13,8 @@ Output 1:
 
 Explanation: The digits in the input are 1, 2, and 3. Their sum is 6, which is less than 15, so the program prints 6.
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Input 2:
 
 hello987654
