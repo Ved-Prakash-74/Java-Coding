@@ -1,6 +1,6 @@
 Write main method in Solution class.
 
-In the main method, read string and print the number of vowels and consonants.
+In the main method, read string as Input and print the number of vowels and consonants ignoring the numbers entered.
 Note: The output should be printed in the same format as mentioned in the sample output.
 
 Consider below sample of input and output:
