@@ -16,9 +16,13 @@ An array of Spotify objects
 A String input_subscription_type
 A String input_group_session
 
-Functionality: This method should find the average price of Spotify subscriptions where the subscriptionType matches input_subscription_type and the groupSession matches input_group_session (case insensitive).
+Functionality: This method should find the average price of Spotify subscriptions where the subscriptionType matches 
+input_subscription_type and the groupSession matches input_group_session (case insensitive).
 
 Return Value: If there are matching subscriptions, return the average price as a double. If no subscriptions match, return 0.
+
+
+Consider the following example input and output:
 
 Input:
 1
@@ -46,3 +50,5 @@ yes
 
 Output:
 1500.0
+
+
