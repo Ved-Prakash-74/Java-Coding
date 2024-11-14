@@ -1,0 +1,11 @@
+Write a main method in Solution class.
+
+In the main method, write code to read a numeric digit using scanner and print it in reverse sequence as they appear in input.
+
+Consider below sample input and output:
+
+Input:
+5271
+
+Output:
+1725
