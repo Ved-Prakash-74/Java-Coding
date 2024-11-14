@@ -1,0 +1,48 @@
+Create a class Spotify with the following attributes:
+
+spotifyId - int
+subscriptionName - String
+subscriptionType - String
+price - double
+groupSession - String
+
+Write getters and setters for the above attributes. Also, create a constructor that takes these parameters in the given sequence.
+
+Create a class Solution with a main method. Implement a static method SearchSpotifyAvg as follows:
+
+Method: SearchSpotifyAvg
+Parameters:
+An array of Spotify objects
+A String input_subscription_type
+A String input_group_session
+
+Functionality: This method should find the average price of Spotify subscriptions where the subscriptionType matches input_subscription_type and the groupSession matches input_group_session (case insensitive).
+
+Return Value: If there are matching subscriptions, return the average price as a double. If no subscriptions match, return 0.
+
+Input:
+1
+netflix
+monthly
+1000
+yes
+2
+prime
+monthly
+2000
+yes
+3
+hotstar
+yearly
+500
+no
+4
+aha
+yearly
+1000
+no
+monthly
+yes
+
+Output:
+1500.0
