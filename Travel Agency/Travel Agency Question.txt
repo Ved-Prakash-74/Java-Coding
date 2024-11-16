@@ -12,21 +12,27 @@ findAgencyWithHighestPackagePrice
 agencyDetailsForGivenIdAndType
 
 findAgencyWithHighestPackagePrice method:
-This method will take array of TravelAgencies object as an input parameter and returns the highest package price from given array of objects.
+This method will take array of TravelAgencies object as an input parameter and returns the highest package price 
+from given array of objects.
 
 agencyDetailsForGivenIdAndType method:
-This method will take three input parameters - array of TravelAgencies objects , integer parameter regNO and String parameter packageType. The method will return the TravelAgencies object based on below condition
+This method will take three input parameters - array of TravelAgencies objects , integer parameter regNO and 
+String parameter packageType. The method will return the TravelAgencies object based on below condition
 
 FlightFacility should be available.
-The input parameters should be matched with regNo and packageType of TravelAgencies object. If any of the above condition does not match then the method should return null.
+The input parameters should be matched with regNo and packageType of TravelAgencies object. If any of the above 
+condition does not match then the method should return null.
 
-Note : Same Travel agency can have more than one package type. Travel agency and package type combination is unique. All the searches should be case insensitive.
+Note : Same Travel agency can have more than one package type. Travel agency and package type combination is unique. 
+All the searches should be case insensitive.
 
 The above mentioned static methods should be called from the main method.
 
-For findAgencyWithHighestPackagePrice method – The main method should print the highestPackagePrice as it is. For agencyDetailsForGivenldAndType method -The main method should print the AgencyName and price of the returned object. The Agency name and price should be concatenated with while printing.
+For findAgencyWithHighestPackagePrice method – The main method should print the highestPackagePrice as it is. For 
+agencyDetailsForGivenldAndType method -The main method should print the AgencyName and price of the returned object. 
+The Agency name and price should be concatenated with while printing.
 
-
+Consider Sample Input and Output:
 
 Input
 123
