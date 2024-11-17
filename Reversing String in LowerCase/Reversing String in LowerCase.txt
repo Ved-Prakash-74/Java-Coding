@@ -1,0 +1,15 @@
+Write a main method in class Solution.
+
+In main method, write a code to read string input using scanner class and print it in reverse order as they appear in input.
+
+Condition:
+The reverse string should be printed in lowercase only.
+
+Consider the sample input and output:
+
+Input:
+WelCome
+
+Output:
+emoclew
+
