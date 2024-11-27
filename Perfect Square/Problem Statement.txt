@@ -1,0 +1,17 @@
+Write a main method in class Solution.
+
+In main method, write a code to read integer input using scanner class and print True if it is perfect square else print False. 
+
+Consider the sample input and output:
+
+Input 1:
+9
+
+Output 1:
+True
+
+Input 2:
+14
+
+Output:
+False

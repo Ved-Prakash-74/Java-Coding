@@ -1,0 +1,17 @@
+Write a main method in class Solution.
+
+In main method, write a code to read String input using scanner class and print the smallest vowel present in string. If there are no vowels present then print "No Vowels Present". 
+
+Consider the sample input and output:
+
+Input 1:
+chair
+
+Output 1:
+a
+
+Input 2:
+hmm
+
+Output:
+No Vowels Present

@@ -1,0 +1,46 @@
+Create a class FootWear which consist of below attributes:
+
+footwearId - int
+footwearName - String
+footwearType - String
+price - int
+
+The above attributes should be private. Write getters and setters and parameterised constructor as required.
+
+Create the class Solution with main method. Implement 1 static method getCountByType in the Solution class.
+
+getCountByType method:
+This method will take two inputs parameters , array of footwear objects and string parameters footwear type. This method will return the count of the footwear from the array of the footwear object for the given type of footwear.
+
+If no footwear with the given footwear type is found in the array of the footwear objects then method should return 0.
+
+For getCountByType method the main method should print the count of the footwear if the returned value is greater than zero or it should print "Footwear Not Available".
+
+
+Consider the sample input and output:
+
+Input:
+100
+Sketchers
+sneakers
+12345
+103
+Puma
+running shoes
+10099
+102
+reebok
+Running shoes
+5667
+101
+Reebok
+running shoes
+5656
+99
+reebok
+floaters
+5666
+Running shoes
+
+Output:
+3
